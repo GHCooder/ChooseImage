@@ -16,11 +16,25 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="daN-PE-9Xk">
+                                <rect key="frame" x="50" y="70" width="165" height="30"/>
+                                <state key="normal" title="请点击这里进入下一页面"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="daN-PE-9Xk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="4RF-Xs-xKM"/>
+                            <constraint firstItem="daN-PE-9Xk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="kmb-Jq-myG"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="addImageBtn" destination="daN-PE-9Xk" id="bIP-nM-Rjh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="309" y="207"/>
         </scene>
     </scenes>
 </document>

@@ -15,6 +15,18 @@
 		18444BA51A569E14009F112E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18444BA31A569E14009F112E /* LaunchScreen.storyboard */; };
 		18444BB01A569E14009F112E /* GHAddUimageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18444BAF1A569E14009F112E /* GHAddUimageTests.m */; };
 		18444BBB1A569E14009F112E /* GHAddUimageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18444BBA1A569E14009F112E /* GHAddUimageUITests.m */; };
+		1845821C1D59C9E000773562 /* OpinionFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845821B1D59C9E000773562 /* OpinionFeedbackViewController.m */; };
+		184582231D59CA1600773562 /* FeedbackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845821E1D59CA1600773562 /* FeedbackView.m */; };
+		184582241D59CA1600773562 /* FeedbackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1845821F1D59CA1600773562 /* FeedbackView.xib */; };
+		184582251D59CA1600773562 /* ShowImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 184582211D59CA1600773562 /* ShowImageCollectionViewCell.m */; };
+		184582261D59CA1600773562 /* ShowImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184582221D59CA1600773562 /* ShowImageCollectionViewCell.xib */; };
+		184582291D59CAC800773562 /* PlacehodeTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 184582281D59CAC800773562 /* PlacehodeTextView.m */; };
+		1845822C1D59CBE500773562 /* UIView+ViewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845822B1D59CBE500773562 /* UIView+ViewFrame.m */; };
+		1845822F1D59CC7800773562 /* ShowImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845822E1D59CC7800773562 /* ShowImage.m */; };
+		184582321D59CE9C00773562 /* mine_bth_addFeedback@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184582301D59CE9C00773562 /* mine_bth_addFeedback@2x.png */; };
+		184582331D59CE9C00773562 /* mine_bth_addFeedback@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184582311D59CE9C00773562 /* mine_bth_addFeedback@3x.png */; };
+		184582361D59CEC700773562 /* mine_bth_delete2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184582341D59CEC700773562 /* mine_bth_delete2@2x.png */; };
+		184582371D59CEC700773562 /* mine_bth_delete2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184582351D59CEC700773562 /* mine_bth_delete2@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,24 @@
 		18444BB61A569E14009F112E /* GHAddUimageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHAddUimageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18444BBA1A569E14009F112E /* GHAddUimageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHAddUimageUITests.m; sourceTree = "<group>"; };
 		18444BBC1A569E14009F112E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1845821A1D59C9E000773562 /* OpinionFeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpinionFeedbackViewController.h; sourceTree = "<group>"; };
+		1845821B1D59C9E000773562 /* OpinionFeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpinionFeedbackViewController.m; sourceTree = "<group>"; };
+		1845821D1D59CA1600773562 /* FeedbackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackView.h; sourceTree = "<group>"; };
+		1845821E1D59CA1600773562 /* FeedbackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackView.m; sourceTree = "<group>"; };
+		1845821F1D59CA1600773562 /* FeedbackView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedbackView.xib; sourceTree = "<group>"; };
+		184582201D59CA1600773562 /* ShowImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowImageCollectionViewCell.h; sourceTree = "<group>"; };
+		184582211D59CA1600773562 /* ShowImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowImageCollectionViewCell.m; sourceTree = "<group>"; };
+		184582221D59CA1600773562 /* ShowImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		184582271D59CAC800773562 /* PlacehodeTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacehodeTextView.h; sourceTree = "<group>"; };
+		184582281D59CAC800773562 /* PlacehodeTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacehodeTextView.m; sourceTree = "<group>"; };
+		1845822A1D59CBE500773562 /* UIView+ViewFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewFrame.h"; sourceTree = "<group>"; };
+		1845822B1D59CBE500773562 /* UIView+ViewFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewFrame.m"; sourceTree = "<group>"; };
+		1845822D1D59CC7800773562 /* ShowImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowImage.h; sourceTree = "<group>"; };
+		1845822E1D59CC7800773562 /* ShowImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowImage.m; sourceTree = "<group>"; };
+		184582301D59CE9C00773562 /* mine_bth_addFeedback@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mine_bth_addFeedback@2x.png"; sourceTree = "<group>"; };
+		184582311D59CE9C00773562 /* mine_bth_addFeedback@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mine_bth_addFeedback@3x.png"; sourceTree = "<group>"; };
+		184582341D59CEC700773562 /* mine_bth_delete2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mine_bth_delete2@2x.png"; sourceTree = "<group>"; };
+		184582351D59CEC700773562 /* mine_bth_delete2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mine_bth_delete2@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +131,7 @@
 		18444B941A569E14009F112E /* GHAddUimage */ = {
 			isa = PBXGroup;
 			children = (
+				184582161D59C93400773562 /* 添加图片 */,
 				18444B981A569E14009F112E /* AppDelegate.h */,
 				18444B991A569E14009F112E /* AppDelegate.m */,
 				18444B9B1A569E14009F112E /* ViewController.h */,
@@ -117,6 +148,10 @@
 		18444B951A569E14009F112E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				184582341D59CEC700773562 /* mine_bth_delete2@2x.png */,
+				184582351D59CEC700773562 /* mine_bth_delete2@3x.png */,
+				184582301D59CE9C00773562 /* mine_bth_addFeedback@2x.png */,
+				184582311D59CE9C00773562 /* mine_bth_addFeedback@3x.png */,
 				18444B961A569E14009F112E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +173,51 @@
 				18444BBC1A569E14009F112E /* Info.plist */,
 			);
 			path = GHAddUimageUITests;
+			sourceTree = "<group>";
+		};
+		184582161D59C93400773562 /* 添加图片 */ = {
+			isa = PBXGroup;
+			children = (
+				184582171D59C93400773562 /* Controller */,
+				184582181D59C93400773562 /* Model */,
+				184582191D59C93400773562 /* View */,
+			);
+			path = "添加图片";
+			sourceTree = "<group>";
+		};
+		184582171D59C93400773562 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1845821A1D59C9E000773562 /* OpinionFeedbackViewController.h */,
+				1845821B1D59C9E000773562 /* OpinionFeedbackViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		184582181D59C93400773562 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		184582191D59C93400773562 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1845822D1D59CC7800773562 /* ShowImage.h */,
+				1845822E1D59CC7800773562 /* ShowImage.m */,
+				1845822A1D59CBE500773562 /* UIView+ViewFrame.h */,
+				1845822B1D59CBE500773562 /* UIView+ViewFrame.m */,
+				184582271D59CAC800773562 /* PlacehodeTextView.h */,
+				184582281D59CAC800773562 /* PlacehodeTextView.m */,
+				1845821D1D59CA1600773562 /* FeedbackView.h */,
+				1845821E1D59CA1600773562 /* FeedbackView.m */,
+				1845821F1D59CA1600773562 /* FeedbackView.xib */,
+				184582201D59CA1600773562 /* ShowImageCollectionViewCell.h */,
+				184582211D59CA1600773562 /* ShowImageCollectionViewCell.m */,
+				184582221D59CA1600773562 /* ShowImageCollectionViewCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +323,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184582331D59CE9C00773562 /* mine_bth_addFeedback@3x.png in Resources */,
+				184582261D59CA1600773562 /* ShowImageCollectionViewCell.xib in Resources */,
+				184582371D59CEC700773562 /* mine_bth_delete2@3x.png in Resources */,
+				184582321D59CE9C00773562 /* mine_bth_addFeedback@2x.png in Resources */,
 				18444BA51A569E14009F112E /* LaunchScreen.storyboard in Resources */,
+				184582241D59CA1600773562 /* FeedbackView.xib in Resources */,
 				18444BA21A569E14009F112E /* Assets.xcassets in Resources */,
+				184582361D59CEC700773562 /* mine_bth_delete2@2x.png in Resources */,
 				18444BA01A569E14009F112E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,8 +357,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				18444B9D1A569E14009F112E /* ViewController.m in Sources */,
+				184582251D59CA1600773562 /* ShowImageCollectionViewCell.m in Sources */,
+				1845822F1D59CC7800773562 /* ShowImage.m in Sources */,
+				184582291D59CAC800773562 /* PlacehodeTextView.m in Sources */,
 				18444B9A1A569E14009F112E /* AppDelegate.m in Sources */,
+				184582231D59CA1600773562 /* FeedbackView.m in Sources */,
+				1845821C1D59C9E000773562 /* OpinionFeedbackViewController.m in Sources */,
 				18444B971A569E14009F112E /* main.m in Sources */,
+				1845822C1D59CBE500773562 /* UIView+ViewFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +455,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -400,7 +492,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -412,6 +504,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GHAddUimage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yejin.GHAddUimage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +516,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GHAddUimage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yejin.GHAddUimage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +590,7 @@
 				18444BC11A569E14009F112E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18444BC21A569E14009F112E /* Build configuration list for PBXNativeTarget "GHAddUimageTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +599,7 @@
 				18444BC41A569E14009F112E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18444BC51A569E14009F112E /* Build configuration list for PBXNativeTarget "GHAddUimageUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +608,7 @@
 				18444BC71A569E14009F112E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

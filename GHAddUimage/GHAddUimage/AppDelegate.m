@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "OpinionFeedbackViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    OpinionFeedbackViewController *opin = [[OpinionFeedbackViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:opin];
+    self.window.rootViewController = nav;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
