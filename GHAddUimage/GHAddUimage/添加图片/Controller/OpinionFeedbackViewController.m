@@ -85,7 +85,6 @@
 {
     if (actionSheet.tag == 255) {
         
-        NSLog(@"%ld", buttonIndex);
         NSUInteger sourceType = 0;
         
         // 判断是否支持相机

@@ -13,7 +13,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *icon;
 @property (weak, nonatomic) IBOutlet UIButton *closeBtn;
 
-@property (nonatomic, copy) void(^closeBlock)(NSIndexPath *);
+@property (nonatomic, copy) void(^closeBlock)(ShowImageCollectionViewCell *);
 @property (nonatomic, strong)NSIndexPath *indexPath;
 
 @property (nonatomic, copy) void(^iconClickBlock)(NSIndexPath *);

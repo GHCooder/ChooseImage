@@ -29,7 +29,7 @@
 - (void)closeBtnClick{
 //    [NSNotificationCenter defaultCenter] pos
     if (self.closeBlock) {
-        self.closeBlock(self.indexPath);
+        self.closeBlock(self);
     }
 }
 

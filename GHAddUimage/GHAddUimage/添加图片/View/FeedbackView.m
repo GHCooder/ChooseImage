@@ -54,7 +54,7 @@
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     ShowImageCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:ShowImageCollectionCell forIndexPath:indexPath];
-    
+    cell.indexPath = indexPath;
     return cell;
 }
 
@@ -63,21 +63,17 @@
     if (indexPath.row < self.iconArr.count) {
         imageCell.indexPath = indexPath;
         __weak typeof(self) weakSelf = self;
-        
-        [imageCell setCloseBlock:^(NSIndexPath *indexPath1) {
-            
-            
+        [imageCell setCloseBlock:^(ShowImageCollectionViewCell *imageCell1) {
+            NSIndexPath *indexPath1 = [collectionView indexPathForCell:imageCell1];
             [weakSelf.iconArr removeObjectAtIndex:indexPath1.row];
             [collectionView deleteItemsAtIndexPaths:@[indexPath1]];
-            
+            [collectionView reloadData];
             weakSelf.countLabel.text = [NSString stringWithFormat:@"%ld/4", (unsigned long)self.iconArr.count];
-            [weakSelf.imageCollectView reloadItemsAtIndexPaths:@[indexPath1]];
+            
         }];
         [imageCell.icon setImage:self.iconArr[indexPath.row]];
         imageCell.icon.highlighted = NO;
         imageCell.closeBtn.hidden = NO;
-        
-        
         
     }else{
         imageCell.icon.highlighted = YES;
